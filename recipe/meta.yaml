@@ -10,8 +10,8 @@ package:
 source:
   fn: withr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/withr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/withr/withr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/withr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/withr/withr_{{ version }}.tar.gz
   sha256: bd5fae3846b8f89081a0991375402266dccf49bfa5d614690deea1b03ba5eb9e
 
 
